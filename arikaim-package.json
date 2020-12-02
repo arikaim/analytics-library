@@ -1,14 +1,22 @@
 {
     "title": "Analytics",
     "name": "analytics",
-    "version": "1.0.9",
+    "version": "1.0.1",
     "package-type": "library",
     "repository": "https://github.com/arikaim/analytics-library.git",
     "description": "Google Analytics library",
     "files": [
-        "https://www.google-analytics.com/analytics.js",
-        "analytics-code.js"
+        "https://www.googletagmanager.com/gtag/js",
+        "gtag.js"
     ],
+    "versions": {   
+        "analytics": {
+            "files": [
+                "https://www.google-analytics.com/analytics.js",
+                "analytics-code.js"
+            ] 
+        } 
+    },
     "async": true,
     "params": {
         "tracking-id": "{{ tracking-id }}"
