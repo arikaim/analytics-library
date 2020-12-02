@@ -1,13 +1,13 @@
 {
     "title": "Analytics",
     "name": "analytics",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "package-type": "library",
     "repository": "https://github.com/arikaim/analytics-library.git",
     "description": "Google Analytics library",
     "files": [
         "https://www.googletagmanager.com/gtag/js",
-        "gtag.js"
+        "gtag-code.js"
     ],
     "versions": {   
         "analytics": {
