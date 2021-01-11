@@ -1,7 +1,7 @@
 {
     "title": "Analytics",
     "name": "analytics",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "package-type": "library",
     "repository": "https://github.com/arikaim/analytics-library.git",
     "description": "Google Analytics library",
